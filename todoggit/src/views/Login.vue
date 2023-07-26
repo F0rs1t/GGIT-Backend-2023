@@ -9,7 +9,7 @@
           <h2>Authentication</h2>
           <div class="user-box">
             <input type="text" name="" required="" v-model="email">
-            <label>Username</label>
+            <label>Email</label>
           </div>
           <div class="user-box">
             <input type="password" name="" required="" v-model="password">
