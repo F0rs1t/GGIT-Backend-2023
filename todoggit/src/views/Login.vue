@@ -4,7 +4,7 @@
     <div v-else-if="user">{{ user.email }} is logged in.</div>
     <div v-else>
       <form>
-        <div class="login-box">
+        <div class="login-box" style="background: linear-gradient(#141e30, #243b55)">
           <a style="color: #03e9f4;" class=" fab fa-google" @click="Gauth" :disabled="user"></a>
           <h2>Authentication</h2>
           <div class="user-box">
@@ -123,7 +123,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: linear-gradient(#141e30, #243b55);
 }
 
 .login-box {
